@@ -26,3 +26,8 @@ How does it work:
 7. Draw all entities
 
 Fired event DXF_redrawed when drawing complete
+
+Changes History
+------------------------------------------------------------------------------------------------------------------------------------------
+21 May 2017 : Add Canvas Double Buffers
+            : Save drawing in JPG, TIFF, BMP, PNG, GIF format

@@ -5,7 +5,7 @@ This is a Component for XOJO for Read and View DXF Autocad File Format
 Are a non-definitive version.
 Any outside help will ensure that this project can be completed
 Entities that can be viewed without problem:
-- Circle, Point, Line, Text, Mtext, Arc, Ellipse
+- Circle, Point, Line, Text, Mtext, Arc, Ellipse, xLine
 Entities that can be viewed with restriction:
 - Polyline, Spline, LWPolyline
   Drawed with line, arc, bezier curve ( not support planar, cubic or quadratic curve ).
@@ -33,3 +33,5 @@ Changes History
 22 May 2017 : Resolve ARC, ELLIPSE Arc quadrant rotation, now work fine. 
             : Add Z axis on any class for future implementation of 3D 
             : Now layer color mods works fine
+            : Modify all layer controller
+            : Adding xline entity

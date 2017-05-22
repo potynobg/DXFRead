@@ -35,3 +35,5 @@ Changes History
             : Now layer color mods works fine
             : Modify all layer controller
             : Adding xline entity
+
+23 May 2017 : Add English Language

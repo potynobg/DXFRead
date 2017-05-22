@@ -29,5 +29,7 @@ Changes History
 ------------------------------------------------------------------------------------------------------------------------------------------
 21 May 2017 : Add Canvas Double Buffers
             : Save drawing in JPG, TIFF, BMP, PNG, GIF format
+            
 22 May 2017 : Resolve ARC, ELLIPSE Arc quadrant rotation, now work fine. 
             : Add Z axis on any class for future implementation of 3D 
+            : Now layer color mods works fine

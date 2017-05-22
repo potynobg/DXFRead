@@ -5,13 +5,11 @@ This is a Component for XOJO for Read and View DXF Autocad File Format
 Are a non-definitive version.
 Any outside help will ensure that this project can be completed
 Entities that can be viewed without problem:
-- Circle, Point, Line, Text
+- Circle, Point, Line, Text, Mtext, Arc, Ellipse
 Entities that can be viewed with restriction:
 - Polyline, Spline, LWPolyline
   Drawed with line, arc, bezier curve ( not support planar, cubic or quadratic curve ).
-- Arc, Elipse
-  Problem with rotation arc
-
+  
 How does it work:
 1. The DXF file is read and inserted into an array of text type classes called 'ENTITA'
    - Use DXF_Read(filedxf as folderitem) for start DXF READ also U can use DXF_ReadText(elencoentita as text) for passing a plain DXF text   
@@ -31,3 +29,5 @@ Changes History
 ------------------------------------------------------------------------------------------------------------------------------------------
 21 May 2017 : Add Canvas Double Buffers
             : Save drawing in JPG, TIFF, BMP, PNG, GIF format
+22 May 2017 : Resolve ARC, ELLIPSE Arc quadrant rotation, now work fine. 
+            : Add Z axis on any class for future implementation of 3D 

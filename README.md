@@ -37,3 +37,6 @@ Changes History
             : Adding xline entity
 
 23 May 2017 : Add English Language
+
+25 May 2017 : Add EndOfLine Linux/Unix Style and error message if EndOfLine isn't Windows/Mac/Unix Style
+            : 1th add class for Dimension Entity for futher application

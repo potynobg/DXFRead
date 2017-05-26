@@ -40,3 +40,6 @@ Changes History
 
 25 May 2017 : Add EndOfLine Linux/Unix Style and error message if EndOfLine isn't Windows/Mac/Unix Style
             : 1th add class for Dimension Entity for futher application
+            
+26 May 2017 : Resolve a problem with Polyline is closed but not, add code 66 'Follow Polyline' 
+            : Now can move draw with mouse

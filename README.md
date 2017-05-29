@@ -6,9 +6,14 @@ Are a non-definitive version.
 Any outside help will ensure that this project can be completed
 Entities that can be viewed without problem:
 - Circle, Point, Line, Text, Mtext, Arc, Ellipse, xLine
-Entities that can be viewed with restriction:
+Entities that can be viewed with restriction (Resolve in future):
 - Polyline, Spline, LWPolyline
   Drawed with line, arc, bezier curve ( not support planar, cubic or quadratic curve ).
+Not Supported Entities
+- Hatch, Light, Mesh, Mline, Mtext, Shape, Solid, Sun, Surface, Table, Trace, Underlay, Viewport, Wipeout, 
+Next Adding Entities (Added in future)
+- Helix, Image, Leader, Ray, Tolerance
+
   
 How does it work:
 1. The DXF file is read and inserted into an array of text type classes called 'ENTITA'
